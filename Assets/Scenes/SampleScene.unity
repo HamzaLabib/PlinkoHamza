@@ -479,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5424105288629877320, guid: 1ba8f2275ee28cc46b8fbfe7a35e4650, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.084555
+      value: -16.4
       objectReference: {fileID: 0}
     - target: {fileID: 5424105288629877320, guid: 1ba8f2275ee28cc46b8fbfe7a35e4650, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1101,6 +1101,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1862037281}
     m_Modifications:
+    - target: {fileID: 932437250197436792, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 932437250197436793, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
       propertyPath: m_Name
       value: Box_2
@@ -1465,7 +1469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5424105288629877320, guid: 1ba8f2275ee28cc46b8fbfe7a35e4650, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.456129
+      value: 13.6
       objectReference: {fileID: 0}
     - target: {fileID: 5424105288629877320, guid: 1ba8f2275ee28cc46b8fbfe7a35e4650, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1516,6 +1520,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1862037281}
     m_Modifications:
+    - target: {fileID: 932437250197436792, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 932437250197436793, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
       propertyPath: m_Name
       value: Box_4
@@ -1801,6 +1809,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1862037281}
     m_Modifications:
+    - target: {fileID: 932437250197436792, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 932437250197436793, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
       propertyPath: m_Name
       value: Box_6
@@ -3212,6 +3224,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1862037281}
     m_Modifications:
+    - target: {fileID: 932437250197436792, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 932437250197436793, guid: 565d6453e5985a54799b6411da58a2e1, type: 3}
       propertyPath: m_Name
       value: Box
