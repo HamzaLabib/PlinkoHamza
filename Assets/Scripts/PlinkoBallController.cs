@@ -4,8 +4,8 @@ public class PlinkoBallController : MonoBehaviour
 {
     public float speed = 10f;
     public Rigidbody rb;
-    public AudioSource ballBouncing;
     
+    public AudioSource ballBouncing;
     public AudioSource loserMusic;
     public AudioSource winnerMusic;
 
@@ -35,6 +35,8 @@ public class PlinkoBallController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        rb.freezeRotation = true;
+
         if (other.tag == "Goal")
             winnerMusic.enabled = true;
         else
